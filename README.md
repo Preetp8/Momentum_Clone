@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![product-screenshot]
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -49,9 +49,6 @@ To get a local copy up and running follow these simple example steps.
   ```
   npm start
   ```
-
-
-
 
 
 <!-- USAGE EXAMPLES -->
