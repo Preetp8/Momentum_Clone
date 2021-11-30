@@ -25,7 +25,7 @@
 
 * [React.js](https://reactjs.org/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
   npm start
   ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
