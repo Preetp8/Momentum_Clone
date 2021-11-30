@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.search {
+  color: indigo;
+}
+
+.statement {
+  font-weight: 500;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+.time {
+  color: white;
+  font-size: 337.5%;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.todo-list {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  font-size: 106.25%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.todo-list:hover {
+  opacity: 0.7;
+}
+
+.links {
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.unsplash {
+  color: darkgray;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.unsplash:hover {
+  opacity: 0.5;
+}
+
+.weather {
+  color: darkgoldenrod;
+  padding: 20px;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.center-text {
+  align-items: center;
+  text-align: center;
+  margin-top: 27vh;
+  font-size: 25px;
+  color: #fff;
+
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(https://source.unsplash.com/3840x2160/daily?nature);
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.search-bar {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 4px;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  align-content: center;
+  transition: border-color 0.2s ease;
+  
+  
+}
+
+.submit {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+
+.location-box .location {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 5px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 10px 10px;
+
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  padding: 5px;
+}
+
+.search-box {
+  margin: 10px;
+}
+
+.searchBar {
+  margin: 15px auto;
+  width: 200px;
+  padding-right: 4px;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  align-content: center;
+  transition: border-color 0.2s ease;
+}
+
+.weather-box{
+  position: fixed;
+  right: 82px;
+}
