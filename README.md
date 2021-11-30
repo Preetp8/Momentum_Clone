@@ -97,16 +97,6 @@ _For more examples, please refer to [Momemtum](https://momentumdash.com/)_
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Momentum](https://momentumdash.com/)
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
