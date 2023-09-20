@@ -4,7 +4,7 @@
 <h3 align="center">Momentum Clone</h3>
 
   <p align="center">
-    Recreation of the "Momentum" extension within Google Chrome.
+    Recreation of the "Momentum" extension within Google Chrome. Includes various widgets such as a Google Search Bar, Todo List, and Current Weather using OpenWeather API.
     <br />
   </p>
 </div>
